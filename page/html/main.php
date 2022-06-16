@@ -100,19 +100,30 @@ $uid = $_SESSION['id'];
 				
 				</span>
 				</li>
-                
-                <li>
-				    <a href="./index.php">
-                    <i class='bx bx-dumbbell' ></i>	</a>				
-						<p>Add sites</p>
-					</span>
+				<li>
+					<a href="./site.php">
+                    <i class='bx bx-dumbbell' ></i>
+				</a>
+				<span class="text">
+					<h3></h3>
+					
+					<p>Add site</p>
+				
+				</span>
 				</li>
 				<li>
-				     <a href="./viewpage.php">
-                    <i class='bx bx-dumbbell' ></i> </a>					
-						<p>sites</p>
-					</span>
+					<a href="./survey.php">
+                    <i class='bx bx-dumbbell' ></i>
+				</a>
+				<span class="text">
+					<h3></h3>
+					
+					<p>Site</p>
+				
+				</span>
 				</li>
+                
+               
 			</ul>
            
 

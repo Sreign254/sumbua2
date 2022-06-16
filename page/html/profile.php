@@ -152,7 +152,7 @@ $uid = $_SESSION['id'];
                     
                     <div class="user-detail text-center">
                         <input type="hidden" class="form-control" id="fullname" placeholder="Enter full name" name="userid" value=<?php echo $uid?> 
-						style="width: 36px;height: 36px;object-fit: cover; border-radius: 50%;text-allign:center;">
+						{style="width: 36px;height: 36px;object-fit: cover; border-radius: 50%;text-allign:center;}">
                                              
                       <div class="form-group">  
                         <label for="Fname">Full name</label>
@@ -177,15 +177,21 @@ $uid = $_SESSION['id'];
                       </div>
 					  <?php  } ?>
 					  <input type="submit" class="btn btn-info" name="update" value="Update Profile" {style="textallign:center; display: inline-block;
-    padding: 6px 12px; border-radius: 50%;"}> 
+    padding: 6px 12px; border-radius: 50%;border-radius:50%;"}> 
 	<style>
 		 body{
-                              background-color: black;
-							 
+                              background-color:  #4F6072;
+							  display: block;
                             }
+							.profile-image1{
+								border-radius: 50%;
+							}
 							a {
                                text-decoration: none;
                               }
+							  .img-body{
+								color: white;
+							  }
                           </style>
 
 		</main>

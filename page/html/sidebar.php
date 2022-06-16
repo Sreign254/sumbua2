@@ -18,12 +18,6 @@
 			</li>
 			
 			<li>
-				<a href="#">
-					<i class='bx bxs-message-dots' ></i>
-					<span class="text">Updates</span>
-				</a>
-			</li>
-			<li>
 		
 		</ul>
 		<ul class="side-menu">

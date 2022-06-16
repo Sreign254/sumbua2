@@ -94,10 +94,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <conn rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        body{ font: 14px sans-serif; }
-        .wrapper{ width: 360px; padding: 20px;  }
+        body{ font: 14px sans-serif; align-items: center;}
+        .wrapper{
+            max-width: 500px;
+            margin: auto;
+            align-items: center;
+            padding: 20px;
+         }
+         .content {
+  max-width: 500px;
+  margin: auto;
+}
     </style>
 </head>
 <body>
